@@ -1,0 +1,50 @@
+
+  #chatButtonSection,
+  #chatButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #chatButtonSection {
+    width: 155px;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
+  
+  #chatButton {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #1a73e8;
+    width: 53px;
+    height: 53px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 53px;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  
+  .fa {
+    font-size: 1.5em;
+    margin-right: 12px;
+  }
+  
+  .chatButtonLabel {
+    flex: 0 0 auto;
+    cursor: pointer;
+  }
+  
+  #chatButton:hover {
+    width: 150px;
+  }
+  
+  

@@ -1,0 +1,90 @@
+/* body{
+  margin: 0;
+  padding: 0;
+} */
+
+body{
+  padding: 2em 3em;
+}
+
+#chatPopup{
+  border: 1px solid lightgray;
+  height: 30em;
+  margin-top: 1em;
+  border-radius: 0.7em;
+  position: relative;
+}
+
+.controls{
+  display: flex;
+  box-shadow: 0 0 0 3px transparent, rgba(0, 0, 0, 0.05) 0px 2px 4px 0px inset; 
+  height: 3em;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+
+.message{
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: transparent;
+  width: 100%;
+}
+
+.send{
+  background-color: rgba(236, 242, 254, 1.00);
+  color: dodgerblue;
+  border: none;
+  padding: 0 1em;
+  font-weight: 600;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+
+.chat-container{
+  overflow: scroll;
+  padding: 1em;
+  height: 21em;
+}
+
+.chat-container::-webkit-scrollbar {
+  display: none;
+}
+
+.user-message{
+  background-color: rgba(236, 242, 254, 1.00);
+  border: 1px solid rgb(215, 220, 230);
+  padding: 1.2em;
+  border-radius: 1.3em;
+  border-bottom-right-radius: 0;
+  margin-bottom: 0.5em;
+}
+
+.bot-message{
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 1.2em;
+  border-radius: 1.3em;
+  border-bottom-left-radius: 0;
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
+}
+
+.activeChatBotModal{
+display: block;
+}
+
+.inactiveChatBotModal{
+  display: none;
+}
+
+.settings-nav{
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+  padding: 10px;
+}
